@@ -6,7 +6,7 @@ provider:
   name: aws
   runtime: nodejs14.x
   region: us-east-2
-  iam:
+  iam: 
     role:
         statements:
             - Effect: Allow

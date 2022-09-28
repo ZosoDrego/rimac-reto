@@ -18,6 +18,4 @@ module.exports.setDataDynamoApi = async function (event, context, callback) {
         body: JSON.stringify(newStarship)
       };
     return callback(null,data)
-  };  
-
-	
+  };
